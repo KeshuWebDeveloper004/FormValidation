@@ -1,0 +1,126 @@
+*
+{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:sans-serif;
+}
+.container
+{
+background-image:url("https://images.pexels.com/photos/2397651/pexels-photo-2397651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+width:100%;
+background-repeat:no-repeat;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background-size:cover;
+}
+
+.container form
+{
+background:transparent;
+width:90%;
+max-width:500px;
+padding:20px 30px 0px;
+background:;
+border-radius:4px;
+box-shadow:0 4px 30px rgba(25,0,29,1);
+position:relative;
+color:black;
+}
+img
+{
+height:100px;
+width:100px;
+position:absolute;
+top:-40px;
+left:40%;
+background:transparent;
+border-radius:100%;
+/*box-shadow:0 0 10px rgba(0, 0, 0,0.5);*/
+}
+.input-group
+{
+width:100%;
+display:flex;
+align-items:center;
+margin:10px 0;
+position:relative;
+}
+/*Label to input distance*/
+.input-group label
+{
+flex-basis:30%;
+color:black;
+}
+.input-group input,.input-group textarea
+{
+flex-basis:68%;
+background:transparent;
+border:0px;
+outline:0;
+padding:10px 0;
+border-bottom:1px solid black;
+color:black;
+font-size:16px;
+}
+::placeholder
+{
+font-size:14px;
+}
+form button
+{
+background:#0ed8ed;
+color:white;
+border-radius:4px;
+border:1px solid rgba(255, 255, 255, 0.7);
+padding:10px 40px;
+outline:0;
+cursor:pointer;
+display:block;
+margin:30px auto 10px;
+}
+form button a
+{
+text-decoration:none;
+color:white;
+}
+#log a
+{
+text-decoration:none;
+}
+.input-group span
+{
+position:absolute;
+bottom:12px;
+right:17px;
+font-size:14px;
+color:red;
+}
+#submit-error
+{
+color:red;
+}
+.input-group span i
+{
+color:seagreen;
+}
+#a,#b,#c,#d,#e,#f
+{
+/*color:brown;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

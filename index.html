@@ -1,0 +1,38 @@
+
+<html>
+<head>
+	<style>Formvalidation</style>
+	<link rel="stylesheet"href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+	<body>
+		<center>
+		<div class="container">
+			<form>
+				<div class="input-group">
+				<label><i id="a" class="fa-solid fa-user"></i><b>Username:</b></label>
+				<input type="text"placeholder="User name"id="contact-name"onkeyup="validateName()"required>
+				<span id="name-error"></span>
+			</div>
+			<div class="input-group">
+				<label><i id="b" class="fa-solid fa-lock"></i><b>Password:</b></label>
+				<input type="Password"placeholder="Enter Password"id='contact-Password'name="pass"onkeyup="validatePassword()"required>
+				<span id="password-error"></span>
+			</div>
+			<div class="input-group">
+				<input type="checkbox">
+				<label style="margin-left:-30%">Remember me</label>
+				<a href="#">Forgot Password?</a>
+			</div>
+
+			<button onclick="return validateForm()"><a href="file:///C:/Users/elcot/Desktop/Web-Projects/E-Commerce/E-Commers.html">LogIn</a></button>
+			<span id="submit-error"></span>
+			<b>Don't have an accound?</h4><a href="file:///C:/Users/elcot/Desktop/Web-Projects/8.Form%20validation/form.html">Register</a></b>
+
+			</form>
+
+		</div>
+	</center>
+	</body>
+</html>

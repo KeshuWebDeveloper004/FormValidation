@@ -1,0 +1,56 @@
+
+<html>
+<head>
+	<style>Formvalidation</style>
+	<link rel="stylesheet"href="style2.css">
+    <script src="script2.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+	<body>
+		<div class="container">
+			<form>
+				
+				<div class="input-group">
+				<label><i id="a" class="fa-solid fa-user"></i><b> Full Name:</b></label>
+				<input type="text"placeholder="Enter your name"id="contact-name"onkeyup="validateName()"required>
+				<span id="name-error"></span>
+			</div>
+
+			<div class="input-group">
+				<label><i id="b" class="fa-solid fa-phone-volume"></i><b> Phone No:</b></label>
+				<input type="number"placeholder="123-456-7890"id='contact-phone'onkeyup='validatePhone()'required>
+				<span id="phone-error"></span>
+			</div>
+
+			<div class="input-group">
+				<label><i id="c" class="fa-solid fa-envelope-circle-check"></i><b> Email Id:</b></label>
+				<input type="email"placeholder="Enter Email"id='contact-email'onkeyup='validateEmail()'required>
+				<span id="email-error"></span>
+			</div>
+			<div class="input-group">
+				<label><i id="d" class="fa-solid fa-lock"></i><b> Password:</b></label>
+				<input type="Password"placeholder="Enter Password"id='contact-Password'name="pass"onkeyup="validatePassword()"required>
+				<span id="password-error"></span>
+			</div>
+			<div class="input-group">
+				<label><i id="e" class="fa-solid fa-lock"></i><b>Re-Password:</b></label>
+				<input type="Password"placeholder="Re-Enter Password"id='contact-Password2'name="pass1"onkeyup="validatePassword2()"required>
+				<span id="password2-error"></span>
+			</div>
+			<div class="input-group">
+				<input type="checkbox">
+				<label style="margin-left:-30%">Remember me</label>
+			</div>
+			<div class="input-group">
+				<label><i id="f" class="fa-solid fa-envelope"></i><b>Your Message:</b></label>
+				<textarea rows="email"placeholder="Enter your message"id='contact-message'onkeyup='validateMessage()'required></textarea>
+				<span id="message-error"></span>
+			</div>
+			<button onclick="return validateForm()"><b><a href="file:///C:/Users/elcot/Desktop/Web-Projects/8.Form%20validation/index.html">Register</a></b></button>
+			<span id="submit-error"></span>
+			<b><p id="log" style="text-align:center;">Already have an accound?<a href="file:///C:/Users/elcot/Desktop/Web-Projects/8.Form%20validation/index.html?pass=mhghjgtrtdtr"> LogIn</a></p></b>
+			</form>
+
+		</div>
+	</body>
+</html>
